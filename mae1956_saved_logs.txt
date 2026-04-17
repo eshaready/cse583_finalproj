@@ -1,0 +1,409 @@
+Creating dataset...
+Splitting dataset into train/val/test...
+Train files: ['deepsjeng_all_edges_clean.csv', 'gcc_all_edges_clean.csv', 'mcf_all_edges_clean.csv', 'perlbench_all_edges_clean.csv', 'xz_all_edges_clean.csv']
+Val files: ['x264_all_edges_clean.csv']
+Test files: ['omnetpp_all_edges_clean.csv']
+Train size: 172454
+Val size: 17739
+Test size: 79162
+
+Val MAE: 0.1545, Corr: 0.7170
+
+Epoch 1: loss = 0.5016
+
+Val MAE: 0.1452, Corr: 0.7408
+
+Epoch 2: loss = 0.4775
+
+Val MAE: 0.1414, Corr: 0.7476
+
+Epoch 3: loss = 0.4704
+
+Val MAE: 0.1383, Corr: 0.7529
+
+Epoch 4: loss = 0.4676
+
+Val MAE: 0.1404, Corr: 0.7528
+
+Epoch 5: loss = 0.4655
+
+Val MAE: 0.1378, Corr: 0.7605
+
+Epoch 6: loss = 0.4631
+
+Val MAE: 0.1384, Corr: 0.7544
+
+Epoch 7: loss = 0.4613
+
+Val MAE: 0.1383, Corr: 0.7572
+
+Epoch 8: loss = 0.4603
+
+Val MAE: 0.1370, Corr: 0.7557
+
+Epoch 9: loss = 0.4584
+
+Val MAE: 0.1342, Corr: 0.7645
+
+Epoch 10: loss = 0.4571
+
+Val MAE: 0.1387, Corr: 0.7533
+
+Epoch 11: loss = 0.4560
+
+Val MAE: 0.1389, Corr: 0.7543
+
+Epoch 12: loss = 0.4543
+
+Val MAE: 0.1372, Corr: 0.7543
+
+Epoch 13: loss = 0.4533
+
+Val MAE: 0.1375, Corr: 0.7547
+
+Epoch 14: loss = 0.4520
+
+Val MAE: 0.1372, Corr: 0.7529
+
+Epoch 15: loss = 0.4511
+
+Val MAE: 0.1379, Corr: 0.7533
+
+Epoch 16: loss = 0.4497
+
+Val MAE: 0.1409, Corr: 0.7339
+
+Epoch 17: loss = 0.4489
+
+Val MAE: 0.1417, Corr: 0.7447
+
+Epoch 18: loss = 0.4481
+
+Val MAE: 0.1397, Corr: 0.7478
+
+Epoch 19: loss = 0.4466
+
+Val MAE: 0.1408, Corr: 0.7442
+
+Epoch 20: loss = 0.4458
+
+Val MAE: 0.1418, Corr: 0.7446
+
+Epoch 21: loss = 0.4449
+
+Val MAE: 0.1460, Corr: 0.7329
+
+Epoch 22: loss = 0.4441
+
+Val MAE: 0.1420, Corr: 0.7411
+
+Epoch 23: loss = 0.4430
+
+Val MAE: 0.1388, Corr: 0.7487
+
+Epoch 24: loss = 0.4423
+
+Val MAE: 0.1408, Corr: 0.7404
+
+Epoch 25: loss = 0.4415
+
+Val MAE: 0.1404, Corr: 0.7434
+
+Epoch 26: loss = 0.4407
+
+Val MAE: 0.1446, Corr: 0.7348
+
+Epoch 27: loss = 0.4398
+
+Val MAE: 0.1412, Corr: 0.7443
+
+Epoch 28: loss = 0.4390
+
+Val MAE: 0.1439, Corr: 0.7309
+
+Epoch 29: loss = 0.4381
+
+Val MAE: 0.1411, Corr: 0.7407
+
+Epoch 30: loss = 0.4376
+
+Val MAE: 0.1431, Corr: 0.7381
+
+Epoch 31: loss = 0.4367
+
+Val MAE: 0.1436, Corr: 0.7373
+
+Epoch 32: loss = 0.4363
+
+Val MAE: 0.1457, Corr: 0.7299
+
+Epoch 33: loss = 0.4354
+
+Val MAE: 0.1476, Corr: 0.7252
+
+Epoch 34: loss = 0.4349
+
+Val MAE: 0.1470, Corr: 0.7298
+
+Epoch 35: loss = 0.4341
+
+Val MAE: 0.1448, Corr: 0.7312
+
+Epoch 36: loss = 0.4332
+
+Val MAE: 0.1457, Corr: 0.7325
+
+Epoch 37: loss = 0.4327
+
+Val MAE: 0.1488, Corr: 0.7220
+
+Epoch 38: loss = 0.4322
+
+Val MAE: 0.1490, Corr: 0.7231
+
+Epoch 39: loss = 0.4318
+
+Val MAE: 0.1493, Corr: 0.7237
+
+Epoch 40: loss = 0.4309
+
+Val MAE: 0.1448, Corr: 0.7318
+
+Epoch 41: loss = 0.4302
+
+Val MAE: 0.1443, Corr: 0.7337
+
+Epoch 42: loss = 0.4299
+
+Val MAE: 0.1471, Corr: 0.7265
+
+Epoch 43: loss = 0.4295
+
+Val MAE: 0.1484, Corr: 0.7232
+
+Epoch 44: loss = 0.4286
+
+Val MAE: 0.1499, Corr: 0.7167
+
+Epoch 45: loss = 0.4282
+
+Val MAE: 0.1470, Corr: 0.7279
+
+Epoch 46: loss = 0.4276
+
+Val MAE: 0.1471, Corr: 0.7243
+
+Epoch 47: loss = 0.4271
+
+Val MAE: 0.1499, Corr: 0.7205
+
+Epoch 48: loss = 0.4267
+
+Val MAE: 0.1480, Corr: 0.7240
+
+Epoch 49: loss = 0.4263
+
+Val MAE: 0.1479, Corr: 0.7235
+
+Epoch 50: loss = 0.4256
+
+Val MAE: 0.1483, Corr: 0.7234
+
+Epoch 51: loss = 0.4252
+
+Val MAE: 0.1492, Corr: 0.7195
+
+Epoch 52: loss = 0.4249
+
+Val MAE: 0.1514, Corr: 0.7128
+
+Epoch 53: loss = 0.4245
+
+Val MAE: 0.1514, Corr: 0.7156
+
+Epoch 54: loss = 0.4239
+
+Val MAE: 0.1496, Corr: 0.7172
+
+Epoch 55: loss = 0.4234
+
+Val MAE: 0.1525, Corr: 0.7142
+
+Epoch 56: loss = 0.4233
+
+Val MAE: 0.1486, Corr: 0.7181
+
+Epoch 57: loss = 0.4228
+
+Val MAE: 0.1472, Corr: 0.7251
+
+Epoch 58: loss = 0.4222
+
+Val MAE: 0.1509, Corr: 0.7150
+
+Epoch 59: loss = 0.4221
+
+Val MAE: 0.1513, Corr: 0.7170
+
+Epoch 60: loss = 0.4216
+
+Val MAE: 0.1514, Corr: 0.7156
+
+Epoch 61: loss = 0.4212
+
+Val MAE: 0.1564, Corr: 0.7021
+
+Epoch 62: loss = 0.4208
+
+Val MAE: 0.1531, Corr: 0.7101
+
+Epoch 63: loss = 0.4204
+
+Val MAE: 0.1559, Corr: 0.7034
+
+Epoch 64: loss = 0.4200
+
+Val MAE: 0.1504, Corr: 0.7175
+
+Epoch 65: loss = 0.4198
+
+Val MAE: 0.1562, Corr: 0.7056
+
+Epoch 66: loss = 0.4193
+
+Val MAE: 0.1516, Corr: 0.7120
+
+Epoch 67: loss = 0.4191
+
+Val MAE: 0.1551, Corr: 0.7040
+
+Epoch 68: loss = 0.4186
+
+Val MAE: 0.1549, Corr: 0.7080
+
+Epoch 69: loss = 0.4187
+
+Val MAE: 0.1545, Corr: 0.7029
+
+Epoch 70: loss = 0.4184
+
+Val MAE: 0.1567, Corr: 0.6998
+
+Epoch 71: loss = 0.4179
+
+Val MAE: 0.1529, Corr: 0.7054
+
+Epoch 72: loss = 0.4175
+
+Val MAE: 0.1550, Corr: 0.7055
+
+Epoch 73: loss = 0.4176
+
+Val MAE: 0.1529, Corr: 0.7097
+
+Epoch 74: loss = 0.4170
+
+Val MAE: 0.1521, Corr: 0.7087
+
+Epoch 75: loss = 0.4168
+
+Val MAE: 0.1533, Corr: 0.7083
+
+Epoch 76: loss = 0.4164
+
+Val MAE: 0.1560, Corr: 0.7017
+
+Epoch 77: loss = 0.4160
+
+Val MAE: 0.1530, Corr: 0.7088
+
+Epoch 78: loss = 0.4160
+
+Val MAE: 0.1552, Corr: 0.7032
+
+Epoch 79: loss = 0.4156
+
+Val MAE: 0.1573, Corr: 0.7000
+
+Epoch 80: loss = 0.4153
+
+Val MAE: 0.1568, Corr: 0.6989
+
+Epoch 81: loss = 0.4152
+
+Val MAE: 0.1597, Corr: 0.6948
+
+Epoch 82: loss = 0.4150
+
+Val MAE: 0.1578, Corr: 0.6981
+
+Epoch 83: loss = 0.4144
+
+Val MAE: 0.1554, Corr: 0.7041
+
+Epoch 84: loss = 0.4144
+
+Val MAE: 0.1579, Corr: 0.7006
+
+Epoch 85: loss = 0.4140
+
+Val MAE: 0.1579, Corr: 0.6948
+
+Epoch 86: loss = 0.4136
+
+Val MAE: 0.1551, Corr: 0.7042
+
+Epoch 87: loss = 0.4137
+
+Val MAE: 0.1575, Corr: 0.6969
+
+Epoch 88: loss = 0.4132
+
+Val MAE: 0.1578, Corr: 0.6955
+
+Epoch 89: loss = 0.4129
+
+Val MAE: 0.1607, Corr: 0.6897
+
+Epoch 90: loss = 0.4132
+
+Val MAE: 0.1570, Corr: 0.7022
+
+Epoch 91: loss = 0.4124
+
+Val MAE: 0.1561, Corr: 0.7014
+
+Epoch 92: loss = 0.4124
+
+Val MAE: 0.1589, Corr: 0.6931
+
+Epoch 93: loss = 0.4121
+
+Val MAE: 0.1616, Corr: 0.6860
+
+Epoch 94: loss = 0.4118
+
+Val MAE: 0.1571, Corr: 0.6984
+
+Epoch 95: loss = 0.4119
+
+Val MAE: 0.1590, Corr: 0.6925
+
+Epoch 96: loss = 0.4116
+
+Val MAE: 0.1558, Corr: 0.7021
+
+Epoch 97: loss = 0.4115
+
+Val MAE: 0.1569, Corr: 0.6976
+
+Epoch 98: loss = 0.4111
+
+Val MAE: 0.1596, Corr: 0.6909
+
+Epoch 99: loss = 0.4112
+
+Val MAE: 0.1611, Corr: 0.6890
+
+Epoch 100: loss = 0.4108
+TEST MAE: 0.1956, Corr=0.6481
