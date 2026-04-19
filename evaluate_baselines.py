@@ -70,8 +70,8 @@ def main():
     scaler_pkl = "scaler.pkl"
     model_pt   = "last_model.pt"
 
-    print(f"Loading {len(CSV_FILES)} CSVs (test set)...")
-    ds = BranchDatasetFromCSVs(CSV_FILES, scaler_pkl)
+    print(f"Loading test set...")
+    ds = BranchDatasetFromCSVs(["splits/test_data.csv"], scaler_pkl)
     X  = ds.X.numpy()
     y  = ds.y.numpy().squeeze()
     print(f"Test samples: {len(y)}")
