@@ -28,39 +28,38 @@ namespace {
 typedef std::pair<BasicBlock*, BasicBlock*> edge;
 
 typedef struct BBFeatures {
-  long numInstr = 0;           // Done
-  long loopDepth = 0;          // Done
-  long finalOpcode = -1;       // Done
-  long numSuccessors = 0;      // Done
-  double fracLoads = 0;        // Done
-  double fracStores = 0;       // Done
-  double fracAllocs = 0;       // Done
-  double fracOtherMem = 0;     // Done
-  double fracArith = 0;        // Done
-  double fracIArith = 0;       // Done
-  double fracFArith = 0;       // Done
-  double fracCalls = 0;        // Done
-  double fracCasts = 0;        // Done
-  long numICmps = 0;           // Done
-  long numPtrCmps = 0;         // Done
-  long numBothPtrUnknown = 0;  // Done
-  long numPtrCmpNull = 0;      // Done
+  long numInstr = 0;
+  long loopDepth = 0;
+  long finalOpcode = -1;
+  long numSuccessors = 0;
+  double fracLoads = 0;
+  double fracStores = 0;
+  double fracAllocs = 0;
+  double fracOtherMem = 0;
+  double fracArith = 0;
+  double fracIArith = 0;
+  double fracFArith = 0;
+  double fracCalls = 0;
+  double fracCasts = 0;
+  long numICmps = 0;
+  long numPtrCmps = 0;
+  long numBothPtrUnknown = 0;
+  long numPtrCmpNull = 0;
   long numPtrCmpOtherConst = 0;
-  long numFCmps = 0;               // Done
-  long numCmpsZero = 0;            // Done
-  long numCmpsNegOne = 0;          // Done
-  long numCmpsOtherConst = 0;      // Done
-  long numCmpsBothUnknown = 0;     // Done
-  double fracPhiNodes = 0;         // Done
-  long maxPhiIncoming = 0;         // Done
-  double avgPhiIncomingEdges = 0;  // Done
-  long numParentBlocks = 0;        // Done
+  long numFCmps = 0;
+  long numCmpsZero = 0;
+  long numCmpsNegOne = 0;
+  long numCmpsOtherConst = 0;
+  long numCmpsBothUnknown = 0;
+  double fracPhiNodes = 0;
+  long maxPhiIncoming = 0;
+  double avgPhiIncomingEdges = 0;
+  long numParentBlocks = 0;
   double avgValueUsage = 0;
-  long maxValueUsage = 0;      // Done
-  long numVarsUsed = 0;        // Done
-  long entranceDistance = -1;  // Done
+  long maxValueUsage = 0;
+  long numVarsUsed = 0;
+  long entranceDistance = -1;
   long exitDistance = -1;
-  // TODO: distance from entrance/exit,
 } BBFeatures;
 
 typedef std::unordered_map<BasicBlock*, BBFeatures> FeatureMap;
@@ -127,7 +126,6 @@ distanceMap getExitDistances(Function& F) {
 ICmpType getICmpType(const Instruction& I) {
   auto left = I.getOperand(0);
   auto right = I.getOperand(1);
-  // TODO: is this the correct way to check for pointerness?
   bool isPtrCmp = isa<PointerType>(left->getType());
   llvm::Constant* constant = dyn_cast<llvm::Constant>(left);
   if (constant == NULL) {
